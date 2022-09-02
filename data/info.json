@@ -5,8 +5,11 @@
 		"description": "All surnames occurring 100 or more times in the 2010 Census",
 		"additional": "surnames.pdf"
 	},
-	
-
-
+	{
+		"file_name": "names.zip",
+		"source": "https://www.ssa.gov/oact/babynames/names.zip",
+		"description": "Beyond the Top 1000 Names",
+		"additional": "Compressed folder involves top 1000 names from 1880 to 2021. https://www.ssa.gov/oact/babynames/limits.html"
+	}
 ]
 
