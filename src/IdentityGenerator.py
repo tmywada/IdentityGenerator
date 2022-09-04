@@ -179,28 +179,6 @@ class Utilities:
             
         return [int(v) for v in num_names_per_year]
 
-    # def sample_names_weighted(self, file_path:str, threshold:int, num_samples:int, seed:int=5963):
-    #     """
-    #     """
-    #     # --- load file
-    #     tmp = []
-    #     with open(file_path, 'r') as f:
-    #         for line in f:
-    #             name,count = line.split(',')
-    #             tmp.append((name.strip(), int(count.strip())))
-                
-    #     # --- names and counts
-    #     _tmp = tmp[:threshold]
-    #     names, counts = zip(*_tmp)
-        
-    #     # --- weigths
-    #     weights = np.array(counts)/sum(counts)
-        
-    #     # --- seed
-    #     np.random.seed(seed)
-        
-    #     return [np.random.choice(names, p = weights) for _ in range(num_samples)]
-
     def sample_last_names(self, num_samples:int):
         """
         """
